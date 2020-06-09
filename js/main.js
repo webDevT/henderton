@@ -24,10 +24,27 @@ $('.menu__btn').click(function(){
 
 //-------end mobil menu------------
 
+$('.slider').slick({
+prevArrow: $('.prev'),
+nextArrow: $('.next'),
+slidesToShow: 2,
+responsive: [
+{
+    breakpoint: 992,
+    settings: {
+    slidesToShow: 1,
+   
+    }
+  },
+]
+});
+
+
 });
 
 $(function(){
 $(elements).lazyLoadXT();
+
 
 
 });
