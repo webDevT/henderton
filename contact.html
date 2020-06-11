@@ -144,18 +144,19 @@ Want to join us?</p>
 
 			<div class="col-lg-5">
 				<div class="form-wrapper">
-					<form action="">
+					
+					<div class="form">
 						<div class="input-wrapper">
 							<label for="">Name</label>
-							<input type="text">
+							<input type="text" id="name">
 						</div>
 						<div class="input-wrapper">
 							<label for="">Company</label>
-							<input type="text">
+							<input type="text" id="company">
 						</div>
 						<div class="input-wrapper">
 							<label for="">Project</label>
-							<textarea rows="5" placeholder="Please describe your project:
+							<textarea rows="5" id="text_comment" placeholder="Please describe your project:
 What are you looking to do?
 When would you like to start?
 What's your budget?"></textarea>
@@ -163,30 +164,30 @@ What's your budget?"></textarea>
 						</div>
 						<div class="input-wrapper">
 							<label for="">How did you hear about Henderton?</label>
-							<input type="text">
+							<input type="text" id="how-hear">
 						</div>
 						<div class="input-wrapper">
 							<label for="">Email</label>
-							<input type="email">
+							<input type="email" id="email">
 						</div>
 						<div class="input-wrapper">
 							<label for="">Phone</label>
 
 							<div class="phone-inputs">
 								<div class="input-wrap">
-								<input type="tel">
+								<input type="tel" id="tel1">
 								<div class="input-prompt">
 									Country code
 								</div>
 							</div>
 							<div class="input-wrap">
-								<input type="tel">
+								<input type="tel" id="tel2">
 								<div class="input-prompt">
 									Area code
 								</div>
 							</div>
 							<div class="input-wrap">
-								<input type="tel">
+								<input type="tel" id="tel3">
 								<div class="input-prompt">
 									Phone number
 								</div>
@@ -196,11 +197,12 @@ What's your budget?"></textarea>
 							
 						</div>
 
-						<input type="submit" value="Get in touch">
+						<input type="submit" value="Get in touch" id="btn_submit">
 
+						<div id="erconts"></div>
 						
-						
-					</form>
+					</div>
+
 				</div>
 			</div>
 		</div>
